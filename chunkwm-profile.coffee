@@ -1,4 +1,4 @@
-command: "$HOME/.bin/kwm-profile"
+command: "$HOME/.bin/chunkwm-query -p"
 
 refreshFrequency: 60000 # ms
 
