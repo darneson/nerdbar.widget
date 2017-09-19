@@ -20,8 +20,8 @@ style: """
   font-family: Inconsolata-dz
   -webkit-font-smoothing: antialiased
   text-overflow: ellipsis
-  color: #d3d3d3
-  font: 13px Input
-  right: 90px
+  color: #ffffff
+  font: 15px Input
+  right: 110px
   top: 3px
 """

@@ -11,24 +11,18 @@ render: (output) ->
   """
 
 update: (output, el) ->
+    $(".wifi span:first-child", el).text("  #{output}")
     $icon = $(".wifi span.icon", el)
     $icon.removeClass().addClass("icon")
-    $icon.addClass("fa #{@icon(output)}")
+    $icon.addClass("fa fa-wifi")
 
-icon: (output) =>
-  if output.match /with an AirPort network./
-    $icon = $(".wifi span.icon", el)
-    $icon.css("right", "255px")
-    return "fa-times"
-  else
-    return "fa-wifi"
 
 style: """
   font-family: Inconsolata-dz
   -webkit-font-smoothing: antialiased
   text-overflow: ellipsis
-  color: #d3d3d3
-  font: 13px Input
-  right: 253px
-  top: 3px
+  color: #ffffff
+  font: 15px Input
+  right: 80px
+  bottom: 3px
 """

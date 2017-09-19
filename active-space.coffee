@@ -17,9 +17,13 @@ update: (output, el) ->
     $icon.addClass("fa #{@icon(output)}")
 
 icon: (output) =>
-    return if output == "terminal\n"
+    return if output == "Home\n"
+        "fa-superpowers"
+    else if output == "Terminal1\n"
         "fa-terminal"
-    else if output == "crisidev_irc\n"
+    else if output == "Terminal2\n"
+        "fa-terminal"
+    else if output == "DougDev\n"
         "fa-commenting"
     else if output == "crisidev_web\n"
         "fa-firefox"
@@ -46,8 +50,8 @@ style: """
   font-family: Inconsolata-dz
   -webkit-font-smoothing: antialiased
   text-overflow: ellipsis
-  color: #d3d3d3
-  font: 13px Input
+  color: #ffffff
+  font: 15px Input
   height: 16px
   left: 10px
   overflow: hidden

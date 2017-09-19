@@ -21,8 +21,8 @@ style: """
   text-align: center
   font-family: Inconsolata-dz
   -webkit-font-smoothing: antialiased
-  color: #d3d3d3
-  font: 13px Input
+  color: #ffffff
+  font: 15px Input
   height: 16px
   overflow: hidden
   text-overflow: ellipsis

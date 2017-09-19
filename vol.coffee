@@ -1,6 +1,6 @@
 command: "osascript -e 'get volume settings' 2> /dev/null |awk '{print $2\" \"$8}' |cut -d':' -f2,3 |sed 's/, muted:/ /'"
 
-refreshFrequency: 30000 # ms
+refreshFrequency: 3000 # ms
 
 render: (output) ->
   """
@@ -31,9 +31,9 @@ style: """
   font-family: Inconsolata-dz
   -webkit-font-smoothing: antialiased
   text-overflow: ellipsis
-  color: #d3d3d3
-  font: 13px Input
+  color: #ffffff
+  font: 15px Input
   font-weight: Bold
-  right: 236px
-  top: 3px
+  right: 10px
+  bottom: 3px
 """

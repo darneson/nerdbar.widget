@@ -47,8 +47,8 @@ style: """
   font-family: Inconsolata-dz
   -webkit-font-smoothing: antialiased
   text-overflow: ellipsis
-  font: 13px Input
+  font: 15px Input
   top: 3px
-  right: 186px
-  color: #d3d3d3
+  right: 225px
+  color: #ffffff
 """

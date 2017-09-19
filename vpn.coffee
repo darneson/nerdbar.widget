@@ -25,8 +25,8 @@ style: """
   font-family: Inconsolata-dz
   -webkit-font-smoothing: antialiased
   text-overflow: ellipsis
-  color: #d3d3d3
-  font: 13px Input
-  right: 290px
-  top: 3px
+  color: #ffffff
+  font: 15px Input
+  right: 50px
+  bottom: 3px
 """
