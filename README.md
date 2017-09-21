@@ -8,7 +8,7 @@ and reforked from
 
 I have modified the bar since then, and updated the screenshot.
 
-![img](https://i.imgur.com/wa0J2Bm.png)
+![img](https://i.imgur.com/7czh8mR.png)
 
 The original widget created by *herrbischoff* can be found [here](https://github.com/herrbischoff/nerdbar.widget).
 
